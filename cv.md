@@ -4,7 +4,7 @@ Hi! My name is __Goncharuk Denis__. I'm 19 years old. I've been programming sinc
 
 ## My skills
 
-C, C#, C++, JavaScript, HTML5, CSS3, Java.
+C, C#, C++, JavaScript, HTML5, CSS3.
 
 I am studying at BSUIR in the 2nd year.
 
