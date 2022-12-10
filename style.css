@@ -1,1 +1,135 @@
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	line-height: 35px;
+	font-family: 'Aleo', serif;
+	font-size: 20px;
+	font-weight: 400;
+	background-color: #696969;
+}
 
+header {
+	margin-left: 250px;
+	margin-right: 250px;
+	height: 70px;
+	background-color: #FFEFD5;
+	border-bottom-left-radius: 16px;
+	border-bottom-right-radius: 16px;
+}
+
+nav {
+	text-decoration: none;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 18px;
+}
+
+.link-one:hover {
+	background-color: #FFB6C1;
+	color: #B22222;
+	border-radius: 16px;
+}
+
+.bg {
+	margin-left: 300px;
+	margin-right: 300px;
+	background-color: #C0C0C0;
+}
+
+.main-img {
+	width: 300px;
+	height: 300px;
+	margin-top: 50px;
+	border-radius: 45px;
+}
+
+.img-name {
+	display: flex;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.first-text {
+	width: 100%;
+}
+
+.first-text h1 {
+	text-align: center;
+	margin-top: 75px;
+}
+
+.first-text ul {
+	margin-left: 25px;
+}
+
+h2 {
+	text-align: center;
+	margin-top: 50px;
+	padding-top: 10px;
+	font-family: 'Red Hat Text', sans-и рпнserif;
+	font-size: 30px;
+}
+
+h1 {
+	font-family: 'Red Hat Text', sans-и рпнserif;
+	font-size: 30px;
+}
+
+.link {
+	text-decoration: none;
+	color: #4682B4;
+}
+
+.link-one {
+	text-decoration: none;
+	transition: 0.5s;
+	color: #B22222;
+	padding: 2px 20px;
+	border-radius: 16px;
+}
+
+.english,
+.projects,
+.courses,
+.about-me,
+.education,
+.skills,
+.code,
+.contacts {
+	background-color: #DCDCDC;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	border-radius: 16px;
+	padding-bottom: 10px;
+
+}
+
+footer {
+	height: 70px;
+	background-color: #FFEFD5;
+	margin-left: -50px;
+	margin-right: -50px;
+	margin-top: 50px;
+	border-top-left-radius: 16px;
+	border-top-right-radius: 16px;
+}
+
+.foot {
+	display: flex;
+	justify-content: space-between;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 20px;
+}
+
+.logo {
+	width: 100px;
+	height: 50px;
+}
+
+.prog {
+	text-decoration: none;
+	color: #4682B4;
