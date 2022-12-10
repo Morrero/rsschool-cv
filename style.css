@@ -202,7 +202,8 @@ footer {
 		margin-top: -50px;
 	}
 
-	.first-text>ul {
+	.first-text> ul {
+		padding-left: 10px;
 		text-align: left;
 		padding-bottom: 10px;
 	}
@@ -218,6 +219,14 @@ footer {
 
 	.img-m {
 		margin-top: -20px;
+	}
+
+	.contacts > ul,
+	.skills > ul,
+	.courses > ul,
+	.contacts > ul {
+		text-align: left;
+		padding-left: 20px;
 	}
 }
 
