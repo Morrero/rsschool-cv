@@ -8,6 +8,10 @@ body {
 	background-color: #696969;
 }
 
+.wrapper {
+	margin: 0 auto;
+}
+
 header {
 	height: 70px;
 	background-color: #FFEFD5;
@@ -170,7 +174,7 @@ footer {
 		bottom: 0;
 		left: 0;
 		right: 0;
-		
+
 	}
 
 	html {
