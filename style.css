@@ -151,6 +151,7 @@ footer {
 		margin-left: 20px;
 		margin-right: 20px;
 		padding: 0;
+		text-align: center;
 	}
 
 	.test-with-photos {
@@ -159,6 +160,7 @@ footer {
 		margin-top: 35px;
 		padding-top: 5px;
 		padding-bottom: 5px;
+		text-align: left;
 	}
 
 	footer {
