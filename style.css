@@ -29,11 +29,11 @@ nav {
 	border-radius: 16px;
 }
 
-.bg {
+main {
 	background-color: #C0C0C0;
 	margin-left: 275px;
 	margin-right: 275px;
-
+	padding-bottom: 35px;
 }
 
 .photo {
@@ -97,14 +97,13 @@ footer {
 	background-color: #FFEFD5;
 	border-top-left-radius: 16px;
 	border-top-right-radius: 16px;
-	margin-left: -75px;
-	margin-right: -75px;
-	margin-top: 35px;
 	display: flex;
 	justify-content: space-between;
 	padding-left: 20px;
 	padding-right: 20px;
 	align-items: center;
+	margin-left: 200px;
+	margin-right: 200px;
 }
 
 .logo {
@@ -122,15 +121,14 @@ footer {
 		margin: 0;
 	}
 
-	.bg {
+	main {
 		margin-left: 100px;
 		margin-right: 100px;
 	}
 
 	footer {
-		margin-left: -100px;
-		margin-right: -100px;
 		border-radius: 0;
+		margin: 0;
 	}
 }
 
@@ -143,7 +141,7 @@ footer {
 		display: none;
 	}
 
-	.bg {
+	main {
 		background-color: #696969;
 		display: block;
 		margin: 0;
@@ -169,13 +167,10 @@ footer {
 		margin-top: 35px;
 		padding-top: 5px;
 		padding-bottom: 5px;
-
 	}
 
 	footer {
 		margin: 0;
-		margin-top: 20px;
-
 	}
 
 	html {
