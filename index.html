@@ -1,111 +1,173 @@
-<!DOCTYPE html>
-<html lang="en">
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 35px;
+	font-family: 'Aleo', serif;
+	font-size: 20px;
+	font-weight: 400;
+	background-color: #696969;
+}
 
-<head>
-	<meta charset="UTF-8">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link
-		href="https://fonts.googleapis.com/css2?family=Aleo&family=League+Spartan:wght@400;700&family=Red+Hat+Text:ital,wght@0,300;0,500;1,400;1,700&display=swap"
-		rel="stylesheet">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css">
-	<title>CV</title>
-	<link rel="icon" href="assets/icon/icon.ico">
-</head>
+header {
+	height: 70px;
+	background-color: #FFEFD5;
+	border-bottom-left-radius: 16px;
+	border-bottom-right-radius: 16px;
+	margin-left: 200px;
+	margin-right: 200px;
+}
 
-<body>
-	<header>
-		<nav>
-			<a href="#summary" class="link-one">Summary</a>
-			<a href="#education" class="link-one">Education</a>
-			<a href="#courses" class="link-one">Courses</a>
-			<a href="#skills" class="link-one">Skills</a>
-			<a href="#projects" class="link-one">Projects</a>
-			<a href="#code" class="link-one">Code</a>
-			<a href="#english" class="link-one">English</a>
-			<a href="#content" class="link-one">Contacts</a>
-		</nav>
-	</header>
-	<main>
-		<section class="photo-with-the-name">
-			<div class="photos-for-mobile">
-				<img src="assets/img/main-img.jpg" class="photo" alt="img">
-			</div>
-			<div class="test-with-photos">
-				<h1>Denis Goncharuk</h1>
-				<ul>
-					<li>19 y.o.</li>
-					<li>Front-end Developer</li>
-				</ul>
-			</div>
-		</section>
-		<section class="information" id="summary">
-			<h2>Summary</h2>
-			<p>Hi! My name is Denis and I am 19 years old. I've been programming since 8th grade and I don't plan to stop.
-				I like to learn something new. My main strengths are hard work and patience.</p>
-		</section>
-		<section class="information" id="education">
-			<h2>Education</h2>
-			<p>BSUIR (Belarusian State University of Informatics and Radioelectronics), Minsk</p>
-		</section>
-		<section class="information" id="courses">
-			<h2>Courses</h2>
-			<ul>
-				<li>Code-basics - HTML for beginners</li>
-				<li>Code-basics - CSS for beginners</li>
-				<li>Code-basics - JavaScript for beginners</li>
-			</ul>
-		</section>
-		<section class="information" id="skills">
-			<h2>Skills</h2>
-			<ul>
-				<li>Web-development: HTML5, CSS3, JavaScript (basic knowledge)</li>
-				<li>Version control: Github, GIT</li>
-				<li>Editors: VSCode</li>
-			</ul>
-		</section>
-		<section class="information" id="projects">
-			<h2>Projects</h2>
-			<a href="https://Morrero.github.io/rsschool-cv/" class="link">Curriculum Vitae (CV)</a>
-		</section>
-		<section class="information" id="code">
-			<h2>Code</h2>
-			<pre><code>function multiply(a, b){
-  return a * b; 
-}</code></pre>
-		</section>
-		<section class="information" id="english">
-			<h2>English</h2>
-			<p>B1 - Intermediate</p>
-		</section>
-		<section class="information" id="content">
-			<h2>Contacts</h2>
-			<ul>
-				<li>Email:<br>
-					<a href="mailto:denis.goncharuk.75@gmail.com" class="link">denis.goncharuk.75@gmail.com</a>
-				</li>
-				<li>Telegram:<br>
-					<a href="https://t.me/Morrero" class="link">@Morrero</a>
-				</li>
-				<li>Github:<br>
-					<a href="https://github.com/Morrero" class="link">Morrero</a>
-				</li>
-				<li>Discord:<br>
-					<a href="https://discordapp.com/users/Coldtaker#2842/" class="link">Coldtaker#2842</a>
-				</li>
-				<li>Phone:<br>
-					<a href="tel:80292974146" class="link">+375(29)2974146</a>
-				</li>
-			</ul>
-		</section>
-	</main>
-	<footer>
-		<span>2022</span>
-		<a href="https://github.com/Morrero" class="link">© Morrero</a>
-		<a href="https://rs.school/js-stage0/"><img src="assets/svg/logo.svg" alt="logo" class="logo"></a>
-	</footer>
-</body>
+nav {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 20px;
+}
 
-</html>
+.link-one:hover {
+	background-color: #FFB6C1;
+	color: #B22222;
+	border-radius: 16px;
+}
+
+main {
+	background-color: #C0C0C0;
+	margin-left: 275px;
+	margin-right: 275px;
+	padding-bottom: 20px;
+}
+
+.photo {
+	width: 300px;
+	height: 300px;
+	border-radius: 45px;
+}
+
+.photo-with-the-name {
+	display: flex;
+	padding-top: 35px;
+	padding-left: 35px;
+	padding-right: 35px;
+}
+
+.test-with-photos {
+	width: 100%;
+}
+
+.test-with-photos h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Red Hat Text', sans-и рпнserif;
+	font-size: 30px;
+	margin: 0;
+}
+
+h1 {
+	font-family: 'Red Hat Text', sans-и рпнserif;
+	font-size: 30px;
+}
+
+.link {
+	text-decoration: none;
+	color: #4682B4;
+}
+
+.link-one {
+	text-decoration: none;
+	transition: 0.5s;
+	color: #B22222;
+	border-radius: 16px;
+	padding: 2px 20px;
+}
+
+.information {
+	background-color: #DCDCDC;
+	border-radius: 16px;
+	margin: 20px;
+	padding: 20px;
+
+}
+
+footer {
+	height: 70px;
+	background-color: #FFEFD5;
+	border-top-left-radius: 16px;
+	border-top-right-radius: 16px;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 20px;
+	padding-right: 20px;
+	align-items: center;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+.logo {
+	width: 100px;
+}
+
+.information>ul {
+	padding-left: 20px;
+	text-align: left;
+}
+
+@media (max-width: 1250px) {
+	header {
+		border-radius: 0;
+		margin: 0;
+	}
+
+	main {
+		margin-left: 100px;
+		margin-right: 100px;
+	}
+
+	footer {
+		border-radius: 0;
+		margin: 0;
+	}
+}
+
+@media (max-width: 875px) {
+	body {
+		margin: 0;
+	}
+
+	header {
+		display: none;
+	}
+
+	main {
+		background-color: #696969;
+		display: block;
+		margin: 0;
+		margin-top: 35px;
+	}
+
+	.photo-with-the-name {
+		display: block;
+		margin-left: 20px;
+		margin-right: 20px;
+		padding: 0;
+		text-align: center;
+	}
+
+	.test-with-photos {
+		background-color: #DCDCDC;
+		border-radius: 16px;
+		margin-top: 35px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		text-align: left;
+	}
+
+	footer {
+		margin: 0;
+	}
+
+	html {
+		scroll-behavior: smooth;
+	}
+}
