@@ -1,0 +1,183 @@
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 35px;
+	font-family: 'Aleo', serif;
+	font-size: 20px;
+	font-weight: 400;
+	background-color: #696969;
+}
+
+.wrapper {
+	margin: 0 auto;
+}
+
+header {
+	height: 70px;
+	background-color: #FFEFD5;
+	border-bottom-left-radius: 16px;
+	border-bottom-right-radius: 16px;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+nav {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 20px;
+}
+
+.link-one:hover {
+	background-color: #FFB6C1;
+	color: #B22222;
+	border-radius: 16px;
+}
+
+main {
+	background-color: #C0C0C0;
+	margin-left: 275px;
+	margin-right: 275px;
+	padding-bottom: 20px;
+}
+
+.photo {
+	width: 300px;
+	height: 300px;
+	border-radius: 45px;
+}
+
+.photo-with-the-name {
+	display: flex;
+	padding-top: 35px;
+	padding-left: 35px;
+	padding-right: 35px;
+}
+
+.test-with-photos {
+	width: 100%;
+}
+
+.test-with-photos h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Red Hat Text', sans-и рпнserif;
+	font-size: 30px;
+	margin: 0;
+}
+
+h1 {
+	font-family: 'Red Hat Text', sans-и рпнserif;
+	font-size: 30px;
+}
+
+.link {
+	text-decoration: none;
+	color: #4682B4;
+}
+
+.link-one {
+	text-decoration: none;
+	transition: 0.5s;
+	color: #B22222;
+	border-radius: 16px;
+	padding: 2px 20px;
+}
+
+.information {
+	background-color: #DCDCDC;
+	border-radius: 16px;
+	margin: 20px;
+	padding: 20px;
+
+}
+
+footer {
+	height: 70px;
+	background-color: #FFEFD5;
+	border-top-left-radius: 16px;
+	border-top-right-radius: 16px;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 20px;
+	padding-right: 20px;
+	align-items: center;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+.logo {
+	width: 100px;
+}
+
+.information>ul {
+	padding-left: 20px;
+	text-align: left;
+}
+
+@media (max-width: 1250px) {
+	header {
+		border-radius: 0;
+		margin: 0;
+	}
+
+	main {
+		margin-left: 100px;
+		margin-right: 100px;
+	}
+
+	footer {
+		border-radius: 0;
+		margin: 0;
+	}
+}
+
+@media (max-width: 875px) {
+	body {
+		margin: 0;
+	}
+
+	header {
+		display: none;
+	}
+
+	main {
+		background-color: #696969;
+		display: block;
+		margin: 0;
+		margin-top: 35px;
+		padding-bottom: 90px;
+	}
+
+	.photo-with-the-name {
+		display: block;
+		margin-left: 20px;
+		margin-right: 20px;
+		padding: 0;
+		text-align: center;
+	}
+
+	.test-with-photos {
+		background-color: #DCDCDC;
+		border-radius: 16px;
+		margin-top: 35px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		text-align: left;
+	}
+
+	footer {
+		margin: 0;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		right: 0;
+
+	}
+
+	html {
+		scroll-behavior: smooth;
+	}
+}
